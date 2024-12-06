@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>InwestujZaczynaj</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                role="status"
+                style="width: 3rem; height: 3rem"
+            ></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-white sticky-top">
+            <div class="container">
+                <nav
+                    class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0"
+                >
+                    <a href="index.html" class="navbar-brand">
+                        <h2>InwestujZaczynaj</h2>
+                    </a>
+                    <button
+                        type="button"
+                        class="navbar-toggler ms-auto me-0"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Strona Główna</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >O Kursie</a
+                            >
+                            <a href="store.html" class="nav-item nav-link"
+                                >Nasze Korzyści</a
+                            >
+                            <a href="testimonial.html" class="nav-item nav-link"
+                                >Opinie</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Kontakt</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid px-0 mb-5">
+            <div
+                id="header-carousel"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 text-center">
+                                        <p
+                                            class="fs-4 text-white animated zoomIn"
+                                        >
+                                            Witaj na
+                                            <strong class="text-dark"
+                                                >InwestujZaczynaj</strong
+                                            >
+                                        </p>
+                                        <h1
+                                            class="display-1 text-dark mb-4 animated zoomIn"
+                                        >
+                                            Kurs Inwestowania dla
+                                            Początkujących: Zacznij swoją
+                                            przygodę z inwestycjami
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 text-center">
+                                        <p
+                                            class="fs-4 text-white animated zoomIn"
+                                        >
+                                            Witaj na
+                                            <strong class="text-dark"
+                                                >InwestujZaczynaj</strong
+                                            >
+                                        </p>
+                                        <h1
+                                            class="display-1 text-dark mb-4 animated zoomIn"
+                                        >
+                                            Poznaj Podstawy Inwestowania: Kurs
+                                            dla Początkujących
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Poprzedni</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Następny</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Features Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <img
+                            class="img-fluid bg-white w-100 mb-3 wow fadeIn"
+                            data-wow-delay="0.1s"
+                            src="img/features-1.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <p class="fs-5 fw-medium fst-italic text-primary">
+                                Nasze kluczowe cechy kursu "Inwestowanie dla
+                                Początkujących"
+                            </p>
+                            <h1 class="display-6">
+                                Odblokuj pełny potencjał swoich inwestycji
+                            </h1>
+                        </div>
+                        <div class="row g-3 mb-4">
+                            <div class="col-sm-8">
+                                <h5>Analiza rynku w czasie rzeczywistym</h5>
+                                <p class="mb-0">
+                                    Bądź na bieżąco z najnowszymi trendami
+                                    inwestycyjnymi. Nasze dane pozwalają śledzić
+                                    ruchy na rynku i dostosować strategie
+                                    inwestycyjne, abyś zawsze był o krok do
+                                    przodu.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="border-top mb-4"></div>
+                        <div class="row g-3">
+                            <div class="col-sm-8">
+                                <h5>Spersonalizowane strategie inwestycyjne</h5>
+                                <p class="mb-0">
+                                    Stwórz skuteczną strategię inwestycyjną z
+                                    naszymi ekspertami. Oferujemy rozwiązania
+                                    dopasowane do Twoich celów finansowych,
+                                    pomagając Ci budować portfel inwestycyjny.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="border-top mb-4"></div>
+                        <div class="row g-3">
+                            <div class="col-sm-8">
+                                <h5>Skuteczne techniki inwestycyjne</h5>
+                                <p class="mb-0">
+                                    Naucz się najbardziej efektywnych metod
+                                    inwestowania. Od strategii sprzedaży po
+                                    zrozumienie popytu na rynku, wyposażymy Cię
+                                    w wiedzę niezbędną do przekształcenia Twoich
+                                    inwestycji w aktywa płynne.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="border-top mb-4"></div>
+                        <div class="row g-3">
+                            <div class="col-sm-8">
+                                <h5>
+                                    Ekskluzywne informacje o możliwościach
+                                    inwestycyjnych
+                                </h5>
+                                <p class="mb-0">
+                                    Zyskaj dostęp do najbardziej obiecujących
+                                    okazji inwestycyjnych. Oferujemy szczegółowe
+                                    informacje o najlepszych możliwościach
+                                    inwestycyjnych na rynku, pomagając Ci w
+                                    rozwoju Twojego portfela.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- why choose Start -->
+        <div class="container-fluid video my-5">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-6 py-5 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="py-5">
+                            <h1 class="display-6 mb-4">
+                                Ekspercka pomoc w maksymalizowaniu wyników
+                                inwestycyjnych
+                            </h1>
+                            <h5
+                                class="fw-normal lh-base fst-italic text-white mb-5"
+                            >
+                                Dlaczego warto wybrać nasz kurs "Inwestowanie
+                                dla Początkujących"
+                            </h5>
+                            <p>
+                                Nawigowanie po zawiłościach inwestycji wymaga
+                                wiedzy i zrozumienia dynamiki rynku. Oferujemy
+                                narzędzia, wiedzę i strategie, które pomogą Ci
+                                osiągnąć sukces na rynku inwestycyjnym.
+                                Niezależnie od tego, czy chcesz zrozumieć
+                                aktualne trendy, opracować solidną strategię
+                                inwestycyjną czy nauczyć się efektywnych technik
+                                inwestowania, nasza dopasowana pomoc zapewni Ci
+                                najlepsze wyniki. Jako Twój partner w
+                                inwestycjach, oferujemy wsparcie na każdym
+                                etapie Twojej drogi inwestycyjnej.
+                            </p>
+                            <div class="row g-4 mb-5">
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3"
+                                        >
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <span class="text-dark"
+                                            >Dogłębna analiza rynku</span
+                                        >
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3"
+                                        >
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <span class="text-dark"
+                                            >Strategiczne planowanie
+                                            inwestycyjne</span
+                                        >
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3"
+                                        >
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <span class="text-dark"
+                                            >Odblokowanie potencjału
+                                            inwestycyjnego</span
+                                        >
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3"
+                                        >
+                                            <i class="fa fa-check"></i>
+                                        </div>
+                                        <span class="text-dark"
+                                            >Ekspercka pomoc w
+                                            inwestowaniu</span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- why choose End -->
+
+        <!-- Products Start -->
+        <div class="container-fluid product py-5">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center mx-auto wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <p class="fs-5 fw-medium fst-italic text-primary">
+                        Nasze usługi inwestycyjne
+                    </p>
+                    <h1 class="display-6">
+                        Kompleksowe rozwiązania dla inwestorów początkujących
+                    </h1>
+                    <p>
+                        Oferujemy szeroki zakres usług dostosowanych do pomocy w
+                        nauce inwestowania. Od zrozumienia podstaw inwestowania
+                        po opracowanie solidnej strategii inwestycyjnej, nasze
+                        usługi mają na celu maksymalizację potencjału
+                        zarobkowego. Niezależnie od tego, czy chcesz nauczyć się
+                        jak inwestować dla początkujących, czy opracować
+                        osobistą strategię inwestycyjną, nasza pomoc zapewnia
+                        pełne wsparcie na każdym etapie Twojej drogi
+                        inwestycyjnej.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel product-carousel wow fadeInUp"
+                    data-wow-delay="0.5s"
+                >
+                    <a href="" class="d-block product-item rounded">
+                        <img src="img/product-1.jpg" alt="" />
+                        <div
+                            class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+                        >
+                            <h4 class="text-primary">
+                                Analiza rynku inwestycyjnego
+                            </h4>
+                            <span class="text-body">
+                                Bądź na bieżąco z analizami rynkowymi dla
+                                początkujących inwestorów. Dostarczamy aktualne
+                                informacje, które pomogą Ci podejmować świadome
+                                decyzje inwestycyjne na dynamicznym rynku.
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="d-block product-item rounded">
+                        <img src="img/product-2.jpg" alt="" />
+                        <div
+                            class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+                        >
+                            <h4 class="text-primary">
+                                Personalizowane strategie inwestycyjne
+                            </h4>
+                            <span class="text-body">
+                                Stwórz dostosowaną strategię inwestycyjną zgodną
+                                z Twoimi celami finansowymi. Nasi eksperci
+                                współpracują z Tobą, aby opracować plan, który
+                                maksymalizuje zwroty i minimalizuje ryzyko,
+                                zapewniając długoterminowy sukces.
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="d-block product-item rounded">
+                        <img src="img/product-3.jpg" alt="" />
+                        <div
+                            class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+                        >
+                            <h4 class="text-primary">
+                                Możliwości inwestycyjne na rynku
+                            </h4>
+                            <span class="text-body">
+                                Odkrywaj lukratywne możliwości inwestycyjne,
+                                dostosowane do Twojego poziomu doświadczenia.
+                                Nasze szczegółowe analizy i ekskluzywne
+                                połączenia umożliwiają dostęp do najbardziej
+                                obiecujących rynków.
+                            </span>
+                        </div>
+                    </a>
+                    <a href="" class="d-block product-item rounded">
+                        <img src="img/product-4.jpg" alt="" />
+                        <div
+                            class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4"
+                        >
+                            <h4 class="text-primary">
+                                Wskazówki dotyczące monetyzacji inwestycji
+                            </h4>
+                            <span class="text-body">
+                                Dowiedz się, jak przekształcić swoje inwestycje
+                                w gotówkę dzięki naszym praktycznym wskazówkom.
+                                Zapewniamy porady na temat sprzedaży, handlu i
+                                wykorzystania aktywów w celu uzyskania
+                                natychmiastowego przepływu gotówki.
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Products End -->
+
+        <!-- Article Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/article.jpg" alt="" />
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <p class="fs-5 fw-medium fst-italic text-primary">
+                                Nasze podejście do nauki inwestowania
+                            </p>
+                            <h1 class="display-6">
+                                Budowanie majątku dzięki wiedzy i doświadczeniu
+                            </h1>
+                        </div>
+                        <p class="mb-4">
+                            Nasze podejście do inwestowania skupia się na
+                            dogłębnej analizie rynku oraz zobowiązaniu do
+                            maksymalizacji Twoich zysków. Zaczynamy od
+                            szczegółowej analizy obecnych trendów rynkowych,
+                            zapewniając, że Twoje inwestycje będą oparte na
+                            najnowszych danych. Ta analiza stanowi fundament
+                            solidnej strategii inwestycyjnej dostosowanej do
+                            Twoich unikalnych celów finansowych, równoważąc
+                            ryzyko i potencjalne zyski. Dodatkowo koncentrujemy
+                            się na praktycznych rozwiązaniach dotyczących
+                            zarządzania aktywami, zapewniając Ci wiedzę i
+                            narzędzia umożliwiające przekształcenie inwestycji w
+                            płynne środki w razie potrzeby. Z naszą pomocą
+                            odkryjesz najlepsze możliwości inwestycyjne na
+                            rynku, bazując na strategiach, które gwarantują
+                            stabilny rozwój Twojego portfela. Zaufaj naszemu
+                            podejściu, które pomoże Ci osiągnąć sukces finansowy
+                            na długą metę.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Article End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="section-title text-center mx-auto wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <p class="fs-5 fw-medium fst-italic text-primary">
+                        Nasz najnowszy blog
+                    </p>
+                    <h1 class="display-6">
+                        Bądź na bieżąco z najnowszymi informacjami o
+                        inwestowaniu dla początkujących
+                    </h1>
+                    <p>
+                        Zapoznaj się z naszymi najnowszymi wpisami na blogu, aby
+                        być na bieżąco w dynamicznym świecie inwestowania dla
+                        początkujących. Nasze artykuły obejmują wszystko, od
+                        podstawowych informacji o inwestowaniu po skuteczne
+                        strategie i praktyczne porady, które pomogą Ci zacząć
+                        inwestowanie. Bądź na bieżąco z najnowszymi trendami i
+                        najlepszymi praktykami.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="store-item position-relative text-center">
+                            <img
+                                class="img-fluid"
+                                src="img/store-product-1.jpg"
+                                alt=""
+                            />
+                            <div class="p-4">
+                                <h4 class="mb-3">
+                                    Skuteczne strategie inwestycyjne dla
+                                    początkujących
+                                </h4>
+                                <p>
+                                    Odkryj najskuteczniejsze metody zwiększania
+                                    zwrotów z inwestycji. Naucz się, jak
+                                    wykorzystać aktualne trendy rynkowe, aby
+                                    dostosować swoje podejście i osiągnąć sukces
+                                    w inwestowaniu.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="store-item position-relative text-center">
+                            <img
+                                class="img-fluid"
+                                src="img/store-product-2.jpg"
+                                alt=""
+                            />
+                            <div class="p-4">
+                                <h4 class="mb-3">
+                                    Zrozumienie podstaw inwestowania: Co warto
+                                    wiedzieć
+                                </h4>
+                                <p>
+                                    Bądź na bieżąco z najważniejszymi
+                                    informacjami dotyczącymi inwestowania. Nasza
+                                    szczegółowa analiza pomoże Ci zrozumieć
+                                    kluczowe czynniki wpływające na rynek
+                                    inwestycji i dostosować strategię
+                                    inwestycyjną.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="store-item position-relative text-center">
+                            <img
+                                class="img-fluid"
+                                src="img/store-product-3.jpg"
+                                alt=""
+                            />
+                            <div class="p-4">
+                                <h4 class="mb-3">
+                                    Jak zacząć inwestować: Praktyczny poradnik
+                                </h4>
+                                <p>
+                                    Jeśli dopiero zaczynasz inwestować, ten
+                                    poradnik jest dla Ciebie. Dowiesz się, jak
+                                    zacząć inwestowanie, jak wybrać odpowiednie
+                                    aktywa i jak unikać najczęstszych błędów.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Contact Start -->
+        <div class="container-xxl contact py-5">
+            <div class="container">
+                <div
+                    class="section-title text-center mx-auto wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <p class="fs-5 fw-medium fst-italic text-primary">
+                        Skontaktuj się z nami
+                    </p>
+                    <h1 class="display-6">Skontaktuj się z nami teraz</h1>
+                </div>
+                <div
+                    class="row justify-content-center wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="col-lg-8">
+                        <div class="row g-5">
+                            <div
+                                class="col-md-4 text-center wow fadeInUp"
+                                data-wow-delay="0.3s"
+                            >
+                                <div class="btn-square mx-auto mb-3">
+                                    <i
+                                        class="fa fa-envelope fa-2x text-white"
+                                    ></i>
+                                </div>
+                                <p class="mb-2">inwestuj_zaczynaj@gmail.com</p>
+                            </div>
+                            <div
+                                class="col-md-4 text-center wow fadeInUp"
+                                data-wow-delay="0.4s"
+                            >
+                                <div class="btn-square mx-auto mb-3">
+                                    <i class="fa fa-phone fa-2x text-white"></i>
+                                </div>
+                                <p class="mb-0">+48662155555</p>
+                            </div>
+                            <div
+                                class="col-md-4 text-center wow fadeInUp"
+                                data-wow-delay="0.5s"
+                            >
+                                <div class="btn-square mx-auto mb-3">
+                                    <i
+                                        class="fa fa-map-marker-alt fa-2x text-white"
+                                    ></i>
+                                </div>
+                                <p class="mb-2">Warszawa, Polska</p>
+                                <p class="mb-0">
+                                    Metalbox, 18th Floor, 25 Owl St,
+                                    Braamfontein Werf
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Start -->
+
+        <!-- Contact Start -->
+        <div class="container-xxl contact py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Twoje Imię"
+                                        />
+                                        <label for="name">Twoje Imię</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Twój Email"
+                                        />
+                                        <label for="email">Twój Email</label>
+                                        <div
+                                            id="result"
+                                            style="color: red"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            placeholder="Temat"
+                                        />
+                                        <label for="subject">Temat</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Twoja wiadomość"
+                                            id="message"
+                                            style="height: 120px"
+                                        ></textarea>
+                                        <label for="message">Wiadomość</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary rounded-pill py-3 px-5"
+                                        type="submit"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    >
+                                        Wyślij Wiadomość
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-white">InwestujZaczynaj</h3>
+                        <p>
+                            Pozostań w kontakcie z nami, aby otrzymywać
+                            najnowsze aktualizacje, informacje i strategie w
+                            świecie inwestowania dla początkujących. Nasze
+                            zaangażowanie w dostarczanie wartościowych zasobów i
+                            fachowych porad zapewnia, że będziesz dobrze
+                            przygotowany do podejmowania świadomych decyzji
+                            inwestycyjnych.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-primary mb-4">Nasze biuro</h4>
+                        <p class="mb-2">
+                            <i
+                                class="fa fa-map-marker-alt text-primary me-3"
+                            ></i
+                            >Metalbox, 18th Floor, 25 Owl St, Braamfontein Werf,
+                            Warszawa, Polska
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt text-primary me-3"></i
+                            >+48662155555
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i
+                            >inwestuj_zaczynaj@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="text-primary mb-4">Szybkie linki</h4>
+                        <a class="btn btn-link" href="about.html">O nas</a>
+                        <a class="btn btn-link" href="contact.html">Kontakt</a>
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Warunki użytkowania</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Polityka prywatności</a
+                        >
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        Inwestowanie może być skutecznym sposobem na pomnażanie
+                        kapitału, ale wiąże się również z ryzykiem, które warto
+                        zrozumieć przed podjęciem decyzji. Jednym z głównych
+                        ryzyk jest ryzyko rynkowe, czyli możliwość zmienności
+                        wartości inwestycji w zależności od sytuacji
+                        ekonomicznej i zmian na rynkach finansowych. Inwestycje
+                        mogą także wiązać się z ryzykiem płynności, co oznacza
+                        trudności w szybkim zamianie aktywów na gotówkę w
+                        sytuacji potrzeby. Ryzyko kredytowe występuje, gdy druga
+                        strona transakcji, na przykład emitent obligacji, nie
+                        wywiązuje się ze swoich zobowiązań. Kolejnym ryzykiem
+                        jest inflacja, która może obniżać realną wartość zysków
+                        z inwestycji. Należy również pamiętać, że brak
+                        dywersyfikacji portfela inwestycyjnego zwiększa
+                        możliwość poniesienia strat. Inwestowanie zawsze wymaga
+                        dokładnego rozważenia potencjalnych strat i korzyści
+                        oraz analizy indywidualnej tolerancji na ryzyko.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Zgoda na cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Ta strona internetowa używa cookies, aby zapewnić Ci lepsze
+                    i bardziej odpowiednie doświadczenie podczas przeglądania
+                    strony.
+                    <a href="#">Dowiedz się więcej...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Akceptuj</button>
+                <button class="cookie-button" id="declineBtn">Odrzuć</button>
+            </div>
+        </div>
+
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
